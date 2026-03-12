@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DATA TYPES</title>
+</head>
+<body>
+    <script>
+        // js data value types..
+        // primitive - immutable single value data types in js
+        // String number, boolean, undefined, null,and symbol
+        // String - collection of characters in js
+        var myName = "Saksham Jadaun";
+        var number = 166889898;
+        var ismarried = false;  
+        //null
+        var myaddress = null;
+        console.log(myaddress);  
+        console.log(myName + "is married" + ismarried);
+        // bigint= used to store large integers in js
+        var mynum = BigInt("18234567890123456789012345678901234567890");
+        console.log(mynum);
+        console.log(typeof (mynum));
+        let myinfo ={
+            name:"Saksham Jadaun",
+            age: 19,
+            class:"CSE-23",
+            college:"ABES ENGG. COLLEGE",
+        }
+        console.log(myinfo);
+        var key = Object.keys(myinfo);
+        console.log(key.length);
+        function cal(){
+            var num1 = 10;
+            var num2 = 20;
+            var add = num1+num2;
+            console.log(add);
+        }
+        cal();
+        </script>
+</body>
+</html>
